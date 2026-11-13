@@ -1,0 +1,62 @@
+[
+  {
+    "id": "happ",
+    "name": "Happ",
+    "mark": "H",
+    "deep_link": "happ://add/{url}",
+    "platforms": ["ios", "macos", "appletv", "android", "androidtv", "windows"],
+    "stores": {
+      "ios": "https://apps.apple.com/app/id6504287215",
+      "macos": "https://apps.apple.com/app/id6504287215",
+      "appletv": "https://apps.apple.com/app/id6504287215",
+      "android": "https://play.google.com/store/apps/details?id=com.happproxy",
+      "androidtv": "https://play.google.com/store/apps/details?id=com.happproxy",
+      "windows": "https://github.com/Happ-proxy/happ-desktop/releases"
+    }
+  },
+  {
+    "id": "incy",
+    "name": "Incy",
+    "mark": "IN",
+    "deep_link": "incy://import/{url}",
+    "platforms": ["ios", "macos", "appletv"],
+    "stores": {
+      "ios": "https://apps.apple.com/search?term=Incy",
+      "macos": "https://apps.apple.com/search?term=Incy",
+      "appletv": "https://apps.apple.com/search?term=Incy"
+    }
+  },
+  {
+    "id": "streisand",
+    "name": "Streisand",
+    "mark": "St",
+    "deep_link": "streisand://import/{url}",
+    "platforms": ["ios", "macos", "appletv"],
+    "stores": {
+      "ios": "https://apps.apple.com/app/id6450534064",
+      "macos": "https://apps.apple.com/app/id6450534064",
+      "appletv": "https://apps.apple.com/app/id6450534064"
+    }
+  },
+  {
+    "id": "v2rayng",
+    "name": "v2rayNG",
+    "mark": "v2",
+    "deep_link": "v2rayng://install-sub?url={enc}",
+    "platforms": ["android", "androidtv"],
+    "stores": {
+      "android": "https://play.google.com/store/apps/details?id=com.v2ray.ang",
+      "androidtv": "https://play.google.com/store/apps/details?id=com.v2ray.ang"
+    }
+  },
+  {
+    "id": "v2rayn",
+    "name": "v2rayN",
+    "mark": "v2",
+    "deep_link": "",
+    "platforms": ["windows"],
+    "stores": {
+      "windows": "https://github.com/2dust/v2rayN/releases"
+    }
+  }
+]

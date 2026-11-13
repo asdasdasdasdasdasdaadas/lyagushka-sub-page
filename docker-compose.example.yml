@@ -1,0 +1,21 @@
+# /opt/remnawave/subscription/docker-compose.yml — стандартный контейнер страницы подписки Remnawave
+# с нашей страницей вместо встроенной (см. строку в volumes).
+services:
+  remnawave-subscription-page:
+    image: remnawave/subscription-page:latest
+    container_name: remnawave-subscription-page
+    hostname: remnawave-subscription-page
+    restart: always
+    env_file:
+      - .env
+    ports:
+      - '127.0.0.1:3010:3010'
+    volumes:
+      - ./index.html:/opt/app/frontend/index.html:ro
+    networks:
+      - remnawave-network
+
+networks:
+  remnawave-network:
+    driver: bridge
+    external: true
